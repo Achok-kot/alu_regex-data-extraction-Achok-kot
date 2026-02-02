@@ -1,0 +1,31 @@
+SUSPICIOUS DATA - SECURITY TEST
+
+Contact admin@site.com for help with <script>alert('XSS Attack')</script>
+
+Visit our website at https://legitimate-site.com or javascript:alert('malicious')
+
+Call us at (555) 123-4567 or try to access ../../../etc/passwd
+
+Payment info: 4532123456789012 && rm -rf /
+
+<iframe src="javascript:alert('XSS')"></iframe>
+
+Email: user@test.com'; DROP TABLE users; --
+
+Meeting at 2:00 PM <img src=x onerror=alert('XSS')>
+
+System command: rm -rf / && format c:
+
+Path traversal: ../../../../windows/system32/config
+
+SQL injection: ' UNION SELECT * FROM passwords --
+
+More XSS: <script>document.location='http://evil.com'</script>
+
+Fake email: "admin@company.com"<script>alert(1)</script>
+
+Phone with injection: (555) 123-4567; cat /etc/passwd
+
+URL with payload: https://evil.com/malware.exe
+
+Time with script: 14:30<script>alert('time')</script>
